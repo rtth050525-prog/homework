@@ -1,0 +1,27 @@
+body {
+    margin: 20px;
+    font-family: arial;
+
+}
+
+caption {
+    font-weight: bold;
+}
+
+table {
+    border-spacing: 0;
+    border-collapse: collapse;
+        text-align: center;
+}
+
+td, th, caption {
+    padding: 2px 5px;
+    border: 1px solid #000;
+}
+caption {
+    border-bottom: none;
+}
+
+.title {
+    color: red;
+}
