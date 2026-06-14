@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background-color: #f5d7d79a;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.form {
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  width: 320px;
+  box-shadow: 0 0 15px rgba(0 0 0 0.1);
+}
+
+.form h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.form label {
+  display: block;
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+.form input,
+.form select {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.form input[type="radio"] {
+  width: auto;
+  margin-right: 5px;
+}
+
+.checkbox {
+  display: flex;
+  align-items: center;
+  margin-top: 15px;
+}
+
+.checkbox input {
+  width: auto;
+  margin-right: 8px;
+}
+
+.form button {
+  cursor: pointer;
+  width: 100%;
+  padding: 10px;
+  margin-top: 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+
+.form button:hover {
+  background: #0056b3;
+}
+
+textarea {
+  resize: vertical;
+  max-height: 300px;
+  width: 100%;
+}
+
+.tabel {
+  display: block;
+}
+
+fieldset {
+  width: 500;
+  padding: 10 300 10 10;
+}
